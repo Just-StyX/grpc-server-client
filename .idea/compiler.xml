@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="api.lib" target="21" />
+      <module name="api.lib.main" target="21" />
+      <module name="api.lib.test" target="21" />
+      <module name="com.jsl.demo" target="21" />
+      <module name="com.jsl.demo.main" target="21" />
+      <module name="com.jsl.demo.test" target="21" />
+      <module name="demo" target="21" />
+      <module name="demo.main" target="21" />
+      <module name="demo.test" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

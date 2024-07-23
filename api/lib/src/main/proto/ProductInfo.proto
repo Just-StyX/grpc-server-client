@@ -1,0 +1,22 @@
+syntax = "proto3";
+package com.jsl.v1;
+option java_package = "com.jsl.api.grpc.v1";
+option java_multiple_files = true;
+
+import "google/protobuf/timestamp.proto";
+
+message ProductId {
+  string value = 1;
+}
+
+message Product {
+  string id = 1;
+  string name = 2;
+  string description = 3;
+  float price = 4;
+}
+
+service ProductInfo {
+  rpc addProduct(Product) returns (ProductId);
+  rpc getProduct(ProductId) returns (Product);
+}
